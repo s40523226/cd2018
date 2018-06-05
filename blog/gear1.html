@@ -173,7 +173,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="onegear_div" width="800" height="20"></div>
 
-<p><input id="n" value="22"></input><br />
+<p><input id="n" value="26"></input><br />
 <button id="button">Set Number of Gears</button></p>
 <!-- 以下實際利用  Brython 繪圖-->
 
@@ -301,7 +301,7 @@ def setgearnumber(e):
     if doc["n"].value.isdigit():
         n1 = int(doc["n"].value)
     else:
-        n1= 25
+        n1= 26
     # 設定齒輪參數
     x = (canvas.width)/2
     y = (canvas.height)/2
@@ -337,7 +337,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="onegear_div" width="800" height="20"></div>
 
-<p><input id="n" value="22"></input><br />
+<p><input id="n" value="26"></input><br />
 <button id="button">Set Number of Gears</button></p>
 <!-- 以下實際利用  Brython 繪圖-->
 
@@ -465,7 +465,7 @@ def setgearnumber(e):
     if doc["n"].value.isdigit():
         n1 = int(doc["n"].value)
     else:
-        n1= 25
+        n1= 26
     # 設定齒輪參數
     x = (canvas.width)/2
     y = (canvas.height)/2
@@ -514,7 +514,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="cango_gear_div" width="800" height="20"></div>
 
-<p><input id="cn" value="22"></input><br />
+<p><input id="cn" value="26"></input><br />
 <button id="cbutton">Set Number of Gears</button></p>
 <script type="text/python">
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -551,7 +551,7 @@ def draw(e):
     if doc["cn"].value.isdigit():
         cn1 = int(doc["cn"].value)
     else:
-        cn1= 22
+        cn1= 26
 # pa 為壓力角
     pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
@@ -632,7 +632,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="cango_gear_div" width="800" height="20"></div>
 
-<p><input id="cn" value="22"></input><br />
+<p><input id="cn" value="26"></input><br />
 <button id="cbutton">Set Number of Gears</button></p>
 <script type="text/python">
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -669,7 +669,7 @@ def draw(e):
     if doc["cn"].value.isdigit():
         cn1 = int(doc["cn"].value)
     else:
-        cn1= 22
+        cn1= 26
 # pa 為壓力角
     pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
